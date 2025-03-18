@@ -1,6 +1,6 @@
 .POSIX:
 CC = c99
-CFLAGS = -std=c99 -Wall -Wextra -Wpedantic -O2 -g
+CFLAGS = -std=c99 -Wall -Wextra -Wpedantic -O2 -g -fPIC
 LDFLAGS =
 LDLIBS =
 PREFIX = /usr/local
